@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>hola</h2>
-</body>
-</html>
+@extends('app')
+@section('title', 'Sistema - Contactos')
+
+@section('contenido')
+    <h1>Contactos</h1>
+    <p>Este es el contenido de la página de contactos</p>
+@endsection
